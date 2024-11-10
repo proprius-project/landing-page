@@ -1,24 +1,7 @@
-/* eslint-disable @next/next/next-script-for-ga */
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { Layout, FixedPlugin } from "@/components";
-
-import { initializeApp } from "firebase/app";
-import { getAnalytics, initializeAnalytics } from "firebase/analytics";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyDAJOJge6lT8kJsMC1qU1NStqJ1vVrUWmI",
-  authDomain: "propruis.firebaseapp.com",
-  projectId: "propruis",
-  storageBucket: "propruis.firebasestorage.app",
-  messagingSenderId: "167336824926",
-  appId: "1:167336824926:web:57dd456acb5f2dc34024cf",
-  measurementId: "G-DCVDWXQLYV",
-};
-
-// const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -27,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Proprius",
+  title: "Proprius - Solução Imobiliária para Corretores",
   description:
-    "Introducing Tailwind Portfolio Page, a versatile and stylish portfolio template built on the foundation of Tailwind CSS and Material Tailwind.",
+    "Proprius é uma plataforma SaaS projetada para corretores de imóveis. Facilite a gestão de propriedades, aumente a captação de leads e otimize seus processos com um sistema completo e intuitivo.",
 };
 
 export default function RootLayout({
@@ -40,18 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <script
-          defer
-          data-site="YOUR_DOMAIN_HERE"
-          src="https://api.nepcha.com/js/nepcha-analytics.js"
-        ></script> */}
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
       <body className={roboto.className}>
-        <Layout>
-          {children}
-          {/* <FixedPlugin /> */}
-        </Layout>
+        <Layout>{children}</Layout>
       </body>
     </html>
   );
