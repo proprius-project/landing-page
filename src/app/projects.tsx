@@ -50,9 +50,11 @@ export function Projects() {
   return (
     <section className="py-28 px-8">
       <div className="container mx-auto mb-20 text-center">
+        {/* @ts-ignore */}
         <Typography variant="h2" color="blue-gray" className="mb-4">
           My Projects
         </Typography>
+        {/* @ts-ignore */}
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"

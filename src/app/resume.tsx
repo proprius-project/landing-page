@@ -29,14 +29,17 @@ export function Resume() {
     <section className="px-8 py-24">
       <div className="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="col-span-1">
+          {/* @ts-ignore */}
           <Typography variant="h2" color="blue-gray">
             My Resume
           </Typography>
+          {/* @ts-ignore */}
           <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
             Highly skilled and creative Web Developer with 5+ years of
             experience in crafting visually stunning and functionally robust
             websites and web applications.
           </Typography>
+          {/* @ts-ignore */}
           <Button
             variant="text"
             color="gray"

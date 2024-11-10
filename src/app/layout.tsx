@@ -4,6 +4,22 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { Layout, FixedPlugin } from "@/components";
 
+import { initializeApp } from "firebase/app";
+import { getAnalytics, initializeAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDAJOJge6lT8kJsMC1qU1NStqJ1vVrUWmI",
+  authDomain: "propruis.firebaseapp.com",
+  projectId: "propruis",
+  storageBucket: "propruis.firebasestorage.app",
+  messagingSenderId: "167336824926",
+  appId: "1:167336824926:web:57dd456acb5f2dc34024cf",
+  measurementId: "G-DCVDWXQLYV",
+};
+
+// const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
+
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700", "900"],

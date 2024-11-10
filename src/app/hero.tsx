@@ -8,6 +8,7 @@ function Hero() {
     <header className="bg-white p-8">
       <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto">
+          {/* @ts-ignore */}
           <Typography
             variant="h1"
             color="blue-gray"
@@ -15,6 +16,7 @@ function Hero() {
           >
             Revolucione sua rotina <br /> de corretor de imóveis!
           </Typography>
+          {/* @ts-ignore */}
           <Typography
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
@@ -33,6 +35,7 @@ function Hero() {
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
               {/* @ts-ignore */}
               {/* <Input color="gray" label="Digite seu e-mail" size="lg" /> */}
+              {/* @ts-ignore */}
               <Button
                 color="gray"
                 className="w-full px-4 md:w-[12rem]"
