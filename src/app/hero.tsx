@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Input, Button, Typography } from "@material-tailwind/react";
+import Avatar from "../../public/image/avatar1.jpg";
 
 function Hero() {
   return (
@@ -43,7 +44,7 @@ function Hero() {
                   window.location.href = "#contact-footer";
                 }}
               >
-                Eu quero!
+                Entre em contato!
               </Button>
             </div>
           </div>
@@ -57,8 +58,8 @@ function Hero() {
         <Image
           width={1024}
           height={1024}
-          alt="team work"
-          src="/image/avatar-5.png"
+          alt="Proprius - Gestão imobiliária"
+          src={Avatar}
           className="h-[36rem] w-full rounded-xl object-cover"
         />
       </div>

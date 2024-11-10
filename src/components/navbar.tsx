@@ -83,12 +83,13 @@ export function Navbar() {
             </NavItem>
           ))}
         </ul> */}
-          {/* <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="text">Sign In</Button>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color="gray">blocks</Button>
-          </a>
-        </div> */}
+          <div className="hidden items-center gap-2 lg:flex">
+            {/* @ts-ignore */}
+            {/* <Button variant="text">Quero Testar!</Button> */}
+            {/* <a href="https://www.material-tailwind.com/blocks" target="_blank">
+              <Button color="gray">blocks</Button>
+            </a> */}
+          </div>
           {/* @ts-ignore */}
           <IconButton
             variant="text"
@@ -105,24 +106,23 @@ export function Navbar() {
         </div>
         <Collapse open={open}>
           <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
-            <ul className="flex flex-col gap-4">
+            {/* <ul className="flex flex-col gap-4">
               {NAV_MENU.map(({ name, icon: Icon }) => (
                 <NavItem key={name}>
                   <Icon className="h-5 w-5" />
                   {name}
                 </NavItem>
               ))}
-            </ul>
+            </ul> */}
             <div className="mt-6 mb-4 flex items-center gap-2">
               {/* @ts-ignore */}
-              <Button variant="text">Sign In</Button>
-              <a
+              {/* <Button variant="text">Quero Testar!</Button> */}
+              {/* <a
                 href="https://www.material-tailwind.com/blocks"
                 target="_blank"
               >
-                {/* @ts-ignore */}
                 <Button color="gray">blocks</Button>
-              </a>
+              </a> */}
             </div>
           </div>
         </Collapse>

@@ -28,7 +28,7 @@ const SKILLS = [
     icon: SwatchIcon,
     title: "Agendamento e Lembretes Automáticos",
     children:
-      "Diga adeus aos esquecimentos! Agende visitas e follow-ups com facilidade e receba lembretes automáticos, sincronizados com seu Google Calendar. Você e seus clientes nunca mais perderão uma visita importante!",
+      "Diga adeus aos esquecimentos! Agende visitas e follow-ups com facilidade e receba lembretes automáticos. Você e seus clientes nunca mais perderão uma visita importante!",
   },
   {
     icon: HashtagIcon,

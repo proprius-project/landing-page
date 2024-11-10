@@ -46,21 +46,22 @@ export function ContactForm() {
                 variant="lead"
                 className="mx-auto mb-8 text-base !text-gray-500"
               >
-                Preencha o formulário e nossa equipe entrará em contato com você
-                em até 24 horas.
+                Entre em contato com nossa equipe retornará em breve.
               </Typography>
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
                 {/* @ts-ignore */}
                 <Typography variant="h6" color="white" className="mb-2">
-                  (85) 9 8651.6133 - Whatsapp
+                  <a href="https://wa.me/5585987450837?text=Quero%20saber%20mais!">
+                    (85) 9 8745.0837 - Whatsapp
+                  </a>
                 </Typography>
               </div>
               <div className="flex my-2 gap-5">
                 <EnvelopeIcon className="h-6 w-6 text-white" />
                 {/* @ts-ignore */}
                 <Typography variant="h6" color="white" className="mb-2">
-                  jafn92@gmail.com
+                  gestaoproprius@gmail.com
                 </Typography>
               </div>
               {/* <div className="flex mb-10 gap-5">
@@ -84,10 +85,9 @@ export function ContactForm() {
                 </IconButton>
               </div>
             </div>
-            <div className="w-full mt-8 md:mt-0 md:px-10 col-span-4 h-full p-5">
+            {/* <div className="w-full mt-8 md:mt-0 md:px-10 col-span-4 h-full p-5">
               <form action="#">
                 <div className="mb-8 grid gap-4 lg:grid-cols-2">
-                  {/* @ts-ignore */}
                   <Input
                     color="gray"
                     size="lg"
@@ -99,7 +99,6 @@ export function ContactForm() {
                       className: "!min-w-full mb-3 md:mb-0",
                     }}
                   />
-                  {/* @ts-ignore */}
                   <Input
                     color="gray"
                     size="lg"
@@ -112,7 +111,6 @@ export function ContactForm() {
                     }}
                   />
                 </div>
-                {/* @ts-ignore */}
                 <Input
                   color="gray"
                   size="lg"
@@ -124,7 +122,6 @@ export function ContactForm() {
                     className: "!min-w-full mb-8",
                   }}
                 />
-                {/* @ts-ignore */}
                 <Textarea
                   color="gray"
                   size="lg"
@@ -136,13 +133,12 @@ export function ContactForm() {
                   }}
                 />
                 <div className="w-full flex justify-end">
-                  {/* @ts-ignore */}
                   <Button className="w-full md:w-fit" color="gray" size="md">
                     Enviar
                   </Button>
                 </div>
               </form>
-            </div>
+            </div> */}
           </CardBody>
         </div>
       </div>
