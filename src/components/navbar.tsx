@@ -14,6 +14,8 @@ import {
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
+import Image from "next/image";
+import Logo from "../../public/image/logo.jpg";
 
 const NAV_MENU = [
   {
@@ -72,9 +74,16 @@ export function Navbar() {
       <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
         <div className="container mx-auto flex items-center justify-between">
           {/* @ts-ignore */}
-          <Typography color="blue-gray" className="text-lg font-bold">
+          {/* <Typography color="blue-gray" className="text-lg font-bold">
             Proprius
-          </Typography>
+          </Typography> */}
+          <Image
+            width={120}
+            height={120}
+            alt="Proprius - Gestão imobiliária"
+            src={Logo}
+            className="rounded-xl object-cover"
+          />
           {/* <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map(({ name, icon: Icon, href }) => (
             <NavItem key={name} href={href}>

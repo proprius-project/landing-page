@@ -55,7 +55,7 @@ export function Skills() {
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
         {/* @ts-ignore */}
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <Typography color="blue-gray" className="mb-2 mt-9 font-bold uppercase">
           Funcionalidades
         </Typography>
         {/* <Typography variant="h1" color="blue-gray" className="mb-4">
